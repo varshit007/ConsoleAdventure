@@ -1,0 +1,103 @@
+{
+  "buildings": [
+    {
+      "building": {
+        "name": "ISR Dining Hall",
+        "item": ["food"],
+        "directions": {
+          "south": "Wardall Hall",
+          "east": "Townsend Hall",
+          "west": "Coffee Shop"
+        }
+      }
+    },
+    {
+      "building": {
+        "item": ["map"],
+        "directions": {
+          "north": "ISR Dining Hall",
+          "south": "NA",
+          "east": "Gym",
+          "west": "Goodwin Green Apartments"
+        }
+      }
+    },
+    {
+      "building": {
+        "name": "Goodwin Green Apartments",
+        "directions": {
+          "north": "Coffee Shop",
+          "south": "NA",
+          "east": "Wardall Hall",
+          "west": "NA"
+        }
+      }
+    },
+    {
+      "building": {
+        "name": "Coffee Shop",
+        "item": ["coffee"]
+      }
+    },
+    {
+      "building": {
+        "name": "Loomis Laboratory",
+        "item": ["magnets"],
+        "directions": {
+          "north": "NA",
+          "south": "Coffee Shop",
+          "east": "Daniels Hall",
+          "west": "NA"
+        }
+      }
+    },
+    {
+      "building": {
+        "name": "Hendrick House",
+        "item": ["mask"],
+        "directions": {
+          "north": "NA",
+          "south": "Townsend Hall",
+          "east": "NA",
+          "west": "Daniels Hall"
+        }
+      }
+    },
+    {
+      "building": {
+        "name": "Townsend Hall",
+        "item": ["sanitizer"],
+        "directions": {
+          "north": "Hendrick House",
+          "south": "Gym",
+          "east": "NA",
+          "west": "ISR Dining Hall"
+        }
+      }
+    },
+    {
+      "building": {
+        "name": "Daniels Hall",
+        "item": ["coin"],
+        "directions": {
+          "north": "NA",
+          "south": "ISR Dining Hall",
+          "east": "Hendrick House",
+          "west": "Loomis Laboratory"
+        }
+      }
+    },
+    {
+      "building": {
+        "name": "Gym",
+        "item": ["protein shake"],
+        "directions": {
+          "north": "Townsend Hall",
+          "south": "NA",
+          "east": "NA",
+          "west": "Wardall Hall"
+        }
+      }
+    }
+  ]
+}
