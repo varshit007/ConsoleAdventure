@@ -6,7 +6,7 @@
 - "view room" to see an image of the current room
 - "take" or "grab" and then a valid item name to pick up an item
 - "drop" and then a valid item name to drop an item
-- Once you return to Earth, you win
+- Once you reach your desired destination, you win
 
 ## Technologies Used:
 - Java
